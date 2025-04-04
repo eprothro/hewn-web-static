@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hewn Development Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ivory: #f8f5f1;
+      --gray: #f7f7f7;
+      --black: #111111;
+      --text: #444;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'IBM Plex Sans', sans-serif;
+      color: var(--black);
+      background-color: var(--ivory);
+      background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      background-repeat: repeat;
+      background-size: 400px 400px;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+    }
+
+    .logo {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 6.5rem;
+      letter-spacing: 0.04em;
+      text-transform: lowercase;
+      margin: 0;
+      line-height: 1.1;
+      color: var(--black);
+    }
+
+    .subtext {
+      font-weight: 600;
+      font-size: 1.2rem;
+      letter-spacing: 0.29em;
+      text-transform: uppercase;
+      margin-top: 0.1rem;
+      color: var(--text);
+    }
+
+    footer {
+      font-size: 0.85rem;
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #888;
+    }
+
+    /* Mobile Styles */
+    @media screen and (max-width: 768px) {
+      .logo {
+        font-size: 5rem;
+      }
+      .subtext {
+        font-size: 1rem;
+      }
+      footer {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">hewn</h1>
+    <div class="subtext">Development Group</div>
+  </header>
+
+  <footer>
+    Hewn Development Group LLC — All rights reserved
+  </footer>
+
+</body>
+</html>
